@@ -1,0 +1,48 @@
+    html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.w3-wide {
+    letter-spacing: 4px;
+}
+h1, h2, h3, h4, h5, h6, .w3-slim, .w3-wide {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.wrapper {
+    display: block;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 20px;
+    background-color: black;
+}
+
+.wrapper > * {
+    grid-column: col-start / span 2;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul>li{
+    list-style: none;
+}
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color: white;
+}
+
+nav>ul>li:hover>a{
+    color: black;
+}
