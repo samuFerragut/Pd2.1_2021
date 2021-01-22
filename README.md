@@ -39,15 +39,15 @@ You'll have to create a website example using the technology and a Google Docs P
 
 ## HAND OVER SPRINTS
 ### SPRINT 1: Hand over the website repository
-> ![alarm_clock](/docs/alarm_clock.png){:width="10px"} Deadline: Friday 22/01/2020
+> Deadline: Friday 22/01/2020
 
 * Store the website into a github public repository and insert the URL [in this document](https://docs.google.com/spreadsheets/d/1ymNPMas7skRIr2i3mFZtaIYn-Gb7QR_z5bPOZPeZFDI/edit#gid=0)
 * It will contain the website without the video presentation.
 ### SPRINT 2: Entrega de l'esborrany de la presentació
-> ![alarm_clock](/docs/alarm_clock.png =10x) Deadline: Friday 29/01/2020
+> Deadline: Friday 29/01/2020
 
 ### SPRINT 3: Entrega del video editat i penjat a página About de la web
-> ![alarm_clock](/docs/alarm_clock.png =10x) Deadline: Wednesday 03/02/2020
+> Deadline: Wednesday 03/02/2020
 
 ### Video Presentations premiere
-> ![scream](/docs/scream.png =10x) Date: Thursday 04/02/2020
+> Date: Thursday 04/02/2020
