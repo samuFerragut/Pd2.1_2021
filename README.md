@@ -1,9 +1,7 @@
 # Pd2.1_2021
----
 Comparison of Frameworks
 
 ## INTRODUCTION
----
 Your boss says you have to redesign an old website and wants to adopt a modern approach to building the site. Your mission is to propose and stand for a technology to implement web interfaces and to defend it against the others.
 
 ### The technologies / Groups
@@ -13,7 +11,6 @@ Your boss says you have to redesign an old website and wants to adopt a modern a
 4. Jose - Chema / MATERIAL DESIGN
 5. Dani A. - Alberto / TAILWIND CSS
 ## WHAT TO DO?
----
 You'll have to create a website example using the technology and a Google Docs Presentation and optionally, deploy the website.
 
 ### 1. A simple web page
@@ -41,17 +38,16 @@ You'll have to create a website example using the technology and a Google Docs P
 > Deploy the website to **Heroku**, **Netlify** or similar tools.
 
 ## HAND OVER SPRINTS
----
 ### SPRINT 1: Hand over the website repository
-> alarm_clock Deadline: Friday 22/01/2020
+> ![alarm_clock](/docs/alarm_clock.png) Deadline: Friday 22/01/2020
 
 * Store the website into a github public repository and insert the URL [in this document](https://docs.google.com/spreadsheets/d/1ymNPMas7skRIr2i3mFZtaIYn-Gb7QR_z5bPOZPeZFDI/edit#gid=0)
 * It will contain the website without the video presentation.
 ### SPRINT 2: Entrega de l'esborrany de la presentació
-> alarm_clock Deadline: Friday 29/01/2020
+> ![alarm_clock](/docs/alarm_clock.png) Deadline: Friday 29/01/2020
 
 ### SPRINT 3: Entrega del video editat i penjat a página About de la web
-> alarm_clock Deadline: Wednesday 03/02/2020
+> ![alarm_clock](/docs/alarm_clock.png) Deadline: Wednesday 03/02/2020
 
 ### Video Presentations premiere
-> scream Date: Thursday 04/02/2020
+> ![scream](/docs/scream.png) Date: Thursday 04/02/2020
