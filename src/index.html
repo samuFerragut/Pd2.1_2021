@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
 </head>
+
 <body>
     <nav class="bar black">
         <a href="./index.html" class="button bar-item">Home</a>
@@ -14,12 +16,9 @@
         <a href="./about.html" class="button bar-item">About</a>
     </nav>
     <section>
-        <img class="images" src="./images/img_1.webp"
-        style="width:100%; height: 80%;">
-        <img class="images" src="./images/img_2.webp"
-        style="width:100%; height: 80%;">
-        <img class="images" src="./images/img_3.webp"
-        style="width:100%; height: 80%;">
+        <img class="images" src="./images/img-1.png" style="width: 100%" />
+        <img class="images" src="./images/img-2.png" style="width: 100%" />
+        <img class="images" src="./images/img-3.png" style="width: 100%" />
     </section>
     <footer class="container padding-64 center black xlarge">
         <a href="#"><em class="fa fa-facebook-official"></em></a>
@@ -28,25 +27,29 @@
         <a href="#"><em class="fa fa-flickr"></em></a>
         <a href="#"><em class="fa fa-linkedin"></em></a>
         <h5 class="medium">
-        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+            Powered by
+            <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
         </h5>
-      </footer>
+    </footer>
     <script>
         // Automatic Slideshow - change image every 3 seconds
         var myIndex = 0;
         carousel();
-        
+
         function carousel() {
-          var i;
-          var x = document.getElementsByClassName("images");
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}
-          x[myIndex-1].style.display = "block";
-          setTimeout(carousel, 3000);
+            var i;
+            var x = document.getElementsByClassName("images");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1;
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
         }
-        </script>
+    </script>
 </body>
+
 </html>
