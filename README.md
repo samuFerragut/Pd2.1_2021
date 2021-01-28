@@ -46,6 +46,8 @@ You'll have to create a website example using the technology and a Google Docs P
 ### SPRINT 2: Entrega de l'esborrany de la presentació
 > Deadline: Friday 29/01/2020
 
+https://docs.google.com/presentation/d/13YVuKpg4R1tNeUMvhqxBVSRe4yviseAHo7C-Al6ejHc/edit?usp=sharing
+
 ### SPRINT 3: Entrega del video editat i penjat a página About de la web
 > Deadline: Wednesday 03/02/2020
 
