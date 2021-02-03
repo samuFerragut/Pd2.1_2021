@@ -37,6 +37,8 @@ You'll have to create a website example using the technology and a Google Docs P
 ### 3. (Optional) Deploy the website
 > Deploy the website to **Heroku**, **Netlify** or similar tools.
 
+https://hardcore-noether-5ed657.netlify.app
+
 ## HAND OVER SPRINTS
 ### SPRINT 1: Hand over the website repository
 > Deadline: Friday 22/01/2020
