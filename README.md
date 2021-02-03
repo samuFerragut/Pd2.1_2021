@@ -37,7 +37,7 @@ You'll have to create a website example using the technology and a Google Docs P
 ### 3. (Optional) Deploy the website
 > Deploy the website to **Heroku**, **Netlify** or similar tools.
 
-https://hardcore-noether-5ed657.netlify.app
+https://laughing-goldstine-2deef0.netlify.app/
 
 ## HAND OVER SPRINTS
 ### SPRINT 1: Hand over the website repository
@@ -55,3 +55,5 @@ https://docs.google.com/presentation/d/13YVuKpg4R1tNeUMvhqxBVSRe4yviseAHo7C-Al6e
 
 ### Video Presentations premiere
 > Date: Thursday 04/02/2020
+
+https://www.youtube.com/watch?v=ww_AEKAobOU&feature=youtu.be&ab_channel=SamuelFerragutMolina
