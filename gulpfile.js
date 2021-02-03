@@ -2,10 +2,9 @@ const gulp = require("gulp");
 
 const htmlmin = require("gulp-htmlmin");
 
-const postcss = require("gulp-postcss");
-const cssnano = require("cssnano");
-
 const imagemin = require("gulp-imagemin");
+
+const sass = require('gulp-sass');
 
 const del = require("del");
 
@@ -25,20 +24,22 @@ function htmlBuild() {
 }
 
 
-function cssBuild() {
-  return gulp
-    .src(`${paths.source}/styles/*.css`)
-    .pipe(postcss([cssnano()]))
-    .pipe(gulp.dest(`${paths.build}/styles`));
-}
-
 //image minifier
 function imgSquash() {
   return gulp
-    .src("./src/assets/img/*")
-    //.pipe(imagemin())
-    .pipe(gulp.dest("./dist/src/assets/img"));
+    .src("./src/images/*")
+    .pipe(imagemin([imagemin.optipng()]))
+    .pipe(gulp.dest(`${paths.build}/images`));
 }
+
+//style paths
+const scssFiles = 'src/css/*.scss'
+function sassFiles() {
+    return gulp
+        .src(scssFiles)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest(`${paths.build}/styles`));
+};
 
 function cleanup() {
   // Simply execute del with the build folder path
@@ -52,7 +53,7 @@ function cleanup() {
 exports.build = gulp.series(
   cleanup,
   htmlBuild,
-  gulp.parallel(cssBuild, imgSquash)
+  gulp.parallel(sassFiles, imgSquash)
 );
 
 exports.clean = gulp.series(
